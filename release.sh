@@ -28,7 +28,7 @@ fi
 # Download all necessary tarballs before calling into the docker containers.
 echo "Downloading environment tarballs"
 for ver in ${VERSIONS[@]}; do
-    url_base="https://sourceforge.net/projects/dsgpl/files/toolkit/DSM$ver"
+    url_base="https://archive.synology.com/download/ToolChain/toolkit/$ver"
     pushd toolkit_tarballs/
     if [ ! -f base_env-$ver.txz ]; then
         wget -q --show-progress "$url_base/base_env-$ver.txz"

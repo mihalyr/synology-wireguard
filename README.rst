@@ -202,8 +202,8 @@ to be stored on your host machine instead of ephemerally in the container. The
 image will check for existing development files in that folder and will use
 them instead of pulling them from SourceForge when possible. You can also
 download the files directly and put them in the folder you created by downloading
-them from here: https://sourceforge.net/projects/dsgpl/files/toolkit/DSM<DSM_VER>
-(e.g. https://sourceforge.net/projects/dsgpl/files/toolkit/DSM6.2)
+them from here: https://archive.synology.com/download/ToolChain/toolkit/<DSM_VER>
+(e.g. https://archive.synology.com/download/ToolChain/toolkit/7.2).
 
 
 Credits
